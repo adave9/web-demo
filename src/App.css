@@ -1,0 +1,148 @@
+.App{
+  padding: 0px;
+  margin: 0px;
+  font: 400 15px/1.8 Lato, sans-serif;
+}
+footer {
+  background-color: #474e5d;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  left: 0px;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+  font-size: 12px;
+}
+.nav-adjust{
+  background-color: #474e5d;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 3px;
+  font-size: 15px;
+}
+.greet{
+  text-align: center;
+  margin-top: 300px;
+}
+.note-welcome{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bcard{
+  background-color: #586fa3;
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
+  border: 2px solid black;
+  box-shadow: 4px 3px 8px 2px black;
+  border-radius: 50px;
+  text-align: center;
+  color: black;
+}
+
+.bcard ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.bcard li{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+.profilepic{
+  border: 2px solid black;
+  box-shadow: 4px 3px 8px 2px black;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+
+.todo{
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 10px;
+  border: 2px solid #969696;
+  box-shadow: 4px 3px 8px 2px #969696;
+  
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.checkbox{
+  border-bottom: 1px solid green;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contact-card{
+  background-color: #bebebe;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 10px;
+  border: 2px solid #969696;
+  box-shadow: 4px 3px 8px 2px #969696;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card img{
+  border-radius: 5px;
+  border:2px solid white;
+  color: black;
+}
+.card h3,p{
+  text-align: center;
+}
+.quiz{
+  margin-top: 100px;
+  margin-left: 300px;
+  margin-right: 200px;
+  padding: 10px;
+  border: 2px solid #969696;
+  box-shadow: 4px 3px 8px 2px #969696;
+  border-radius: 5px;
+}
+.joke p{
+  text-align: left;
+}
+hr{
+  border-width: 1px;
+  color:gray;
+  background-color:gray
+}
+.sform{
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 20px;
+  border: 2px solid #969696;
+  box-shadow: 4px 3px 8px 2px #969696;
+  border-radius: 20px;
+}
+.sform h2{
+  text-align: center;
+}
+
+.todo2{
+  margin-top: 100px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 10px;
+  border: 2px solid #969696;
+  box-shadow: 4px 3px 8px 2px #969696;
+  border-radius: 5px;
+}
+.todo2 li{
+  padding-bottom: 10px;
+}
